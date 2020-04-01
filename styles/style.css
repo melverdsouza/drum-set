@@ -2,10 +2,52 @@ body {
   padding: 0%;
   margin: 0%;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sounds {
+  margin-top: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.playing {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: 0 0 10px #ffc600;
+          box-shadow: 0 0 10px #ffc600;
+}
+
+.beat {
+  width: 100px;
+  height: 5em;
+  border: 2px solid gray;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-transition: all 0.09s ease;
+  transition: all 0.09s ease;
+}
+
+.sounds div p {
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

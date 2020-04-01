@@ -2,6 +2,42 @@ body {
   padding: 0%;
   margin: 0%;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sounds {
+  margin-top: 10%;
   display: flex;
   justify-content: space-around;
+}
+
+.playing {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #ffc600;
+}
+
+.beat {
+  width: 100px;
+  height: 5em;
+  border: 2px solid gray;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.07s ease;
+}
+
+.sounds {
+  div {
+    p {
+      font-weight: bold;
+    }
+  }
 }

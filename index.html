@@ -11,64 +11,59 @@
     <script src="./code/code.js"></script>
 
     <section class="intro">
-      <h3>Instructions</h3>
-      <p>
-        to play a drum beat you wish, press the key as mentioned in the brackets
-      </p>
-
-      <!-- center tom -->
-      <span>center tom (a)</span
-      ><audio id="65" src="./editted audio/center tom.mp3"></audio>
-      <br />
-
-      <!-- close hh -->
-      <span>close hh (s)</span>
-      <audio id="83" src="./editted audio/close hh.mp3"></audio>
-      <br />
-
-      <!-- crash1 -->
-      <span>crash1 (d)</span
-      ><audio id="68" src="./editted audio/crash 1.mp3"></audio>
-      <br />
-      <!-- crash -->
-      <span>crash (f)</span
-      ><audio id="70" src="./editted audio/crash.mp3"></audio>
-      <br />
-      <!-- floor -->
-      <span>floor (g)</span
-      ><audio id="71" src="./editted audio/floor.mp3"></audio>
-      <br />
-      <!-- kick -->
-      <span>kick (h)</span
-      ><audio id="72" src="./editted audio/kick.mp3"></audio>
-      <br />
-      <!-- left tom -->
-      <span>left tom (j)</span
-      ><audio id="74" src="./editted audio/left tom.mp3"></audio>
-      <br />
-      <!-- open hh -->
-      <span>open hh (k)</span
-      ><audio id="75" src="./editted audio/open hh.mp3"></audio>
-      <br />
-      <!-- ride -->
-      <span>ride (l)</span
-      ><audio id="76" src="./editted audio/ride.mp3"></audio>
-      <br />
-      <!-- right tom -->
-      <span>right tom (;)</span
-      ><audio id="186" src="./editted audio/right tom.mp3"></audio>
-      <br />
-      <!-- snare -->
-      <span>snare (v)</span
-      ><audio id="86" src="./editted audio/snare.mp3"></audio>
-      <br />
-      <!-- splash -->
-      <span>splash (n)</span
-      ><audio id="78" src="./editted audio/splash.mp3"></audio>
+      <div class="container">
+        <h3>Instructions</h3>
+        <p>
+          to play a drum beat you wish, press the key as mentioned in the box
+        </p>
+        <div class="sounds">
+          <div data-key="65" class="beat">
+            <p>A</p>
+            <span class="sound">clap</span>
+          </div>
+          <div data-key="83" class="beat">
+            <p>S</p>
+            <span class="sound">hihat</span>
+          </div>
+          <div data-key="68" class="beat">
+            <p>D</p>
+            <span class="sound">kick</span>
+          </div>
+          <div data-key="70" class="beat">
+            <p>F</p>
+            <span class="sound">openhat</span>
+          </div>
+          <div data-key="71" class="beat">
+            <p>G</p>
+            <span class="sound">boom</span>
+          </div>
+          <div data-key="72" class="beat">
+            <p>H</p>
+            <span class="sound">ride</span>
+          </div>
+          <div data-key="74" class="beat">
+            <p>J</p>
+            <span class="sound">snare</span>
+          </div>
+          <div data-key="75" class="beat">
+            <p>K</p>
+            <span class="sound">tom</span>
+          </div>
+          <div data-key="76" class="beat">
+            <p>L</p>
+            <span class="sound">tink</span>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="drum-set">
-      <h4>The following is a list of the drum sets</h4>
-      <a href="basic-5-piece.html">Basic 5 piece drum set</a>
-    </section>
+    <audio src="./sounds/boom.wav" id="71"></audio>
+    <audio src="./sounds/clap.wav" id="65"></audio>
+    <audio src="./sounds/hihat.wav" id="83"></audio>
+    <audio src="./sounds/kick.wav" id="68"></audio>
+    <audio src="./sounds/openhat.wav" id="70"></audio>
+    <audio src="./sounds/ride.wav" id="72"></audio>
+    <audio src="./sounds/snare.wav" id="74"></audio>
+    <audio src="./sounds/tink.wav" id="76"></audio>
+    <audio src="./sounds/tom.wav" id="75"></audio>
   </body>
 </html>
